@@ -21,7 +21,7 @@ This repository contains Terraform configuration to set up AWS Dynamic Credentia
 ### 1. Clone and Configure
 
 ```bash
-git clone https://github.com/patriciarojasp/aws-dynamic-credentials.git
+git clone https://github.com/AMER-Corp-SE-Org/aws-dynamic-credentials.git
 cd aws-dynamic-credentials
 ```
 
