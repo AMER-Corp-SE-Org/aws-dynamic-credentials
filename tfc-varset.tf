@@ -1,15 +1,5 @@
 # Copyright (c) HashiCorp, Inc.
 # SPDX-License-Identifier: MPL-2.0
-# terraform { 
-#   cloud { 
-    
-#     organization = "var.tfc_organization_name" 
-
-#     workspaces { 
-#       name = "var.tfc_workspace_name" 
-#     } 
-#   } 
-# }
 
 provider "tfe" {
   hostname = var.tfc_hostname
