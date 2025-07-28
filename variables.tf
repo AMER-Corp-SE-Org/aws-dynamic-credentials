@@ -15,7 +15,7 @@ variable "tfc_hostname" {
 
 variable "tfc_organization_name" {
   type        = string
-  description = "The name of your Terraform Cloud organization"
+  description = "The name of your HCP Terraform organization"
 }
 
 variable "tfc_project_name" {
@@ -26,6 +26,6 @@ variable "tfc_project_name" {
 
 variable "tfc_workspace_name" {
   type        = string
-  default     = "my-aws-workspace"
+  default     = "dynamic-credentials"
   description = "The name of the workspace that you'd like to create and connect to AWS"
 }
